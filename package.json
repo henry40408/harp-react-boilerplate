@@ -1,6 +1,5 @@
 {
-  "description": "A React boilerplate for Harp.js",
-  "devDependencies": {
+  "dependencies": {
     "autoprefix": "^0.1.4",
     "babel-core": "^6.7.2",
     "babel-loader": "^6.2.4",
@@ -10,16 +9,17 @@
     "css-loader": "^0.23.1",
     "postcss-loader": "^0.8.2",
     "precss": "^1.4.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
     "style-loader": "^0.13.0",
-    "webpack": "^1.12.14",
+    "webpack": "^1.12.14"
+  },
+  "description": "A React boilerplate for Harp.js",
+  "devDependencies": {
     "webpack-dev-server": "^1.14.1"
   },
   "license": "MIT",
   "name": "harp-react-boilerplate",
   "repository": "https://github.com/henry40408/harp-react-boilerplate",
-  "version": "1.0.0",
-  "dependencies": {
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7"
-  }
+  "version": "1.0.0"
 }
