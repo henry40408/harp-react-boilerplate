@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import styles from "./main.css";
+
 console.log("Application initialized.");
 
 class App extends React.Component {
