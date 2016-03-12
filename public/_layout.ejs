@@ -9,7 +9,11 @@
 
 <body>
   <%- yield %>
-  <script src="bundle.js"></script>
+  <% if(process.env.NODE_ENV === "production") { %>
+    <script src="bundle.js"></script>
+  <% } else { %>
+    <script src="http://localhost:8080/bundle.js"></script>
+  <% } %>
 </body>
 
 </html>
